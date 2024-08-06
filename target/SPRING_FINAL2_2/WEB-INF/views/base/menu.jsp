@@ -1,0 +1,16 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+    <div class="border-end bg-white" id="sidebar-wrapper">
+        <div class="list-group list-group-flush vh-100 bg-secondary">
+            <a class="list-group-item list-group-item-action list-group-item-light p-3 bg-secondary text-white" href="${pageContext.request.contextPath}/hopdongbaohiem/create">Tạo mới hợp đồng bảo hiểm</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3 bg-secondary text-white" href="${pageContext.request.contextPath}/hopdongbaohiem/update">Cập nhật hợp đồng</a>
+            <a class="list-group-item list-group-item-action list-group-item-light p-3 bg-secondary text-white" href="${pageContext.request.contextPath}/giaodich/list">Thông tin hợp đồng</a>
+        </div>
+    </div>
+
+
+
+
+
+
